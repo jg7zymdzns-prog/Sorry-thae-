@@ -7,8 +7,7 @@ const el = {
   y: document.getElementById("y"),
   ou: document.getElementById("ou"),
   you: document.getElementById("you"),
-  blop: new Audio("https://assets.mixkit.co/sfx/preview/mixkit-game-ball-tap-2073.mp3")
-};
+  ;
 
 function crtLoveTL() {
   const move = 1000;
@@ -30,7 +29,7 @@ function crtLoveTL() {
         [el.l, el.o, el.v, el.e, el.u, el.y, el.ou, el.you].forEach(elm => {
           elm.style.opacity = 0;
         });
-        el.blop.play();
+      
       }
     })
   ]);
